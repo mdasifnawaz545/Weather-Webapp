@@ -35,7 +35,7 @@ export default function Info({info}) {
                         <p>Pressure : {info.pressure}</p>
                         <p>Wind Speed : {info.windS}</p>
                         <p>Direction : {info.windD}</p>
-                        <p>The Weather is of <b>{info.description}</b> type and It feels like {info.feelsLike}</p>
+                        <p>The Weather is of <b>{info.description}</b> type and It feels like <b>{info.feelsLike}&deg;C</b></p>
                     </Typography>
                 </CardContent>
 
