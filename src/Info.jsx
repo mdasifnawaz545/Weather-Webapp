@@ -6,7 +6,6 @@ import { CardActionArea } from '@mui/material';
 import AcUnit from '@mui/icons-material/AcUnit';
 import Flare from '@mui/icons-material/Flare';
 import Thunderstorm from '@mui/icons-material/Thunderstorm';
-import './Info.css';
 
 
 export default function Info({info}) {

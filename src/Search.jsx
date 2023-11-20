@@ -51,7 +51,7 @@ export default function Search({ updateWeather }) {
                 <TextField variant="outlined" onChange={handleChange} value={city} size="small" name="city" id="city" label="City Name" ></TextField>
                 <br />
                 <br />
-                <Button style={{marginLeft:"5px"}} type="submit" variant="contained" startIcon={<SearchIcon />}>Search</Button>
+                <Button style={{marginLeft:"5px",backgroundColor:"#366181"}} type="submit" variant="contained" startIcon={<SearchIcon />}>Search</Button>
                 {error && <p>No Data is Available for this Place&nbsp;&hearts;</p>}
             </div>
         </form>
