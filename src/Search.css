@@ -1,0 +1,7 @@
+.search{
+text-align: center;
+display: flex;
+}
+.search button{
+    height: 2.5rem;
+}
