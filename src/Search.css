@@ -1,7 +1,14 @@
-.search{
+.s1{
 text-align: center;
 display: flex;
 }
-.search button{
+.s1 button{
     height: 2.5rem;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
